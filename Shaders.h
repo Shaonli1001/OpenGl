@@ -14,6 +14,7 @@ class Shader
 public:
 	unsigned int ID;
 
+	//constructor
 	Shader(const char* vertexPath, const char* fragmentPath)
 	{
 		std::string vertexCode;
