@@ -17,6 +17,9 @@
     <ClCompile Include="glad.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Dependencies\GLFW\include\GLFW\glfw3.h">
@@ -45,5 +48,8 @@
     <None Include="Resources\Shaders\vertex.glsl" />
     <None Include="Shaders\shader.vs" />
     <None Include="Shaders\shader.frag" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="container.jpg" />
   </ItemGroup>
 </Project>
